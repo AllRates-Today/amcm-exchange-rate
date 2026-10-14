@@ -1,6 +1,6 @@
 {
   "name": "amcm-exchange-rate",
-  "version": "1.3.11",
+  "version": "1.3.12",
   "description": "Official Monetary Authority of Macao (Macao) daily exchange rates — 17 currencies vs MOP, history since 1999. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "amcm",
@@ -10,6 +10,8 @@
     "macao",
     "exchange-rate",
     "exchange-rates",
+    "exchangerate",
+    "exchange rate",
     "mop-exchange-rate",
     "currency",
     "forex",
