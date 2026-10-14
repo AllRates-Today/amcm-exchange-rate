@@ -119,10 +119,10 @@ const pair = await getRate('USD', 'MOP', { apiKey: 'art_live_...' });
 {
   bank: 'amcm',
   name: 'Monetary Authority of Macao',
-  rate_date: '2026-10-12',   // Monetary Authority of Macao's own publication date
+  rate_date: '2026-10-14',   // Monetary Authority of Macao's own publication date
   source: 'USD',
   target: 'MOP',
-  rate: 8.0837,
+  rate: 8.0836,
   rate_type: 'middle',
   derived: false,
   method: 'published',
@@ -147,9 +147,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'amcm',
   name: 'Monetary Authority of Macao',
-  rate_date: '2026-10-12',
+  rate_date: '2026-10-14',
   rates: [
-    { "base": "USD", "quote": "MOP", "type": "middle", "value": 8.0837 },
+    { "base": "USD", "quote": "MOP", "type": "middle", "value": 8.0836 },
     // … the rest of the published table (17 currencies vs MOP)
   ],
   disclaimer: '…'
@@ -189,7 +189,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'amcm-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'MOP', from: '2026-01-01', to: '2026-10-12' },
+  { source: 'USD', target: 'MOP', from: '2026-01-01', to: '2026-10-14' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -202,11 +202,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'MOP',
   from: '2026-01-01',
-  to: '2026-10-12',
+  to: '2026-10-14',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-10-12', rate: 8.0837, rate_type: 'middle', derived: false, method: 'published' },
+    { date: '2026-10-14', rate: 8.0836, rate_type: 'middle', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
