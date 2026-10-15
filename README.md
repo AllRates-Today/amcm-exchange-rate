@@ -42,27 +42,27 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-14** by Monetary Authority of Macao — 17 rates. Updated 2026-10-14.
+Published **2026-10-15** by Monetary Authority of Macao — 17 rates. Updated 2026-10-15.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | MOP | middle | 5.6512 |
-| CAD | MOP | middle | 5.6897 |
-| CHF | MOP | middle | 9.7094 |
-| CNY | MOP | middle | 1.2076 |
-| DKK | MOP | middle | 1.2116 |
-| EUR | MOP | middle | 9.0569 |
-| GBP | MOP | middle | 10.7205 |
+| AUD | MOP | middle | 5.6195 |
+| CAD | MOP | middle | 5.688 |
+| CHF | MOP | middle | 9.7317 |
+| CNY | MOP | middle | 1.2079 |
+| DKK | MOP | middle | 1.2106 |
+| EUR | MOP | middle | 9.0506 |
+| GBP | MOP | middle | 10.697 |
 | HKD | MOP | middle | 1.03 |
-| JPY | MOP | middle | 0.051018 |
+| JPY | MOP | middle | 0.051203 |
 | KRW | MOP | middle | 0.006 |
-| MYR | MOP | middle | 1.9793 |
-| NOK | MOP | middle | 0.8502 |
-| NZD | MOP | middle | 4.5438 |
-| SEK | MOP | middle | 0.8119 |
-| SGD | MOP | middle | 6.3136 |
-| TWD | MOP | middle | 0.2514 |
-| USD | MOP | middle | 8.0836 |
+| MYR | MOP | middle | 1.9796 |
+| NOK | MOP | middle | 0.8511 |
+| NZD | MOP | middle | 4.5308 |
+| SEK | MOP | middle | 0.8097 |
+| SGD | MOP | middle | 6.2986 |
+| TWD | MOP | middle | 0.2511 |
+| USD | MOP | middle | 8.0827 |
 
 Source: [Official rates published by AMCM, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/amcm/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
