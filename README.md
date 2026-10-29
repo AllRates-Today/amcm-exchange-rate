@@ -47,27 +47,27 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Monetary Authority of Macao — 17 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-29 by Monetary Authority of Macao — 17 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | MOP | middle | 5.6922 |
-| CAD | MOP | middle | 5.7457 |
-| CHF | MOP | middle | 9.7356 |
-| CNY | MOP | middle | 1.2118 |
-| DKK | MOP | middle | 1.2023 |
-| EUR | MOP | middle | 8.9869 |
-| GBP | MOP | middle | 10.7479 |
+| AUD | MOP | middle | 5.6969 |
+| CAD | MOP | middle | 5.775 |
+| CHF | MOP | middle | 9.7462 |
+| CNY | MOP | middle | 1.2131 |
+| DKK | MOP | middle | 1.2042 |
+| EUR | MOP | middle | 9 |
+| GBP | MOP | middle | 10.7578 |
 | HKD | MOP | middle | 1.03 |
-| JPY | MOP | middle | 0.051141 |
-| KRW | MOP | middle | 0.006 |
-| MYR | MOP | middle | 1.978 |
-| NOK | MOP | middle | 0.8659 |
-| NZD | MOP | middle | 4.5298 |
-| SEK | MOP | middle | 0.8118 |
-| SGD | MOP | middle | 6.3031 |
-| TWD | MOP | middle | 0.2494 |
-| USD | MOP | middle | 8.0781 |
+| JPY | MOP | middle | 0.051144 |
+| KRW | MOP | middle | 0.0061 |
+| MYR | MOP | middle | 1.9828 |
+| NOK | MOP | middle | 0.8727 |
+| NZD | MOP | middle | 4.5438 |
+| SEK | MOP | middle | 0.8145 |
+| SGD | MOP | middle | 6.3035 |
+| TWD | MOP | middle | 0.2495 |
+| USD | MOP | middle | 8.0801 |
 
 </details>
 
@@ -232,6 +232,7 @@ The Monetary Authority of Macao publishes daily interbank middle rates for about
 
 - Publisher's own page: [Interbank middle rates](https://www.amcm.gov.mo/en/exchange-rate) · [www.amcm.gov.mo/en](https://www.amcm.gov.mo/en/)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Monetary Authority of Macao rates page](https://allratestoday.com/central-bank-rates-api/amcm/)
+- In the API: usually by **04:20 UTC** (measured over the last 10 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
