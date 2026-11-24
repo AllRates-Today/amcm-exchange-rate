@@ -32,27 +32,27 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-23 by Monetary Authority of Macao — 17 rates. Updated 2026-11-23.</summary>
+<summary>Table as text: published 2026-11-24 by Monetary Authority of Macao — 17 rates. Updated 2026-11-24.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | MOP | middle | 5.3665 |
-| CAD | MOP | middle | 5.6323 |
-| CHF | MOP | middle | 9.6063 |
-| CNY | MOP | middle | 1.2097 |
-| DKK | MOP | middle | 1.1859 |
-| EUR | MOP | middle | 8.8648 |
-| GBP | MOP | middle | 10.5817 |
+| AUD | MOP | middle | 5.358 |
+| CAD | MOP | middle | 5.6241 |
+| CHF | MOP | middle | 9.5995 |
+| CNY | MOP | middle | 1.2116 |
+| DKK | MOP | middle | 1.179 |
+| EUR | MOP | middle | 8.8123 |
+| GBP | MOP | middle | 10.5318 |
 | HKD | MOP | middle | 1.03 |
-| JPY | MOP | middle | 0.050806 |
+| JPY | MOP | middle | 0.050816 |
 | KRW | MOP | middle | 0.006 |
-| MYR | MOP | middle | 1.9637 |
-| NOK | MOP | middle | 0.8277 |
-| NZD | MOP | middle | 4.4243 |
-| SEK | MOP | middle | 0.7904 |
-| SGD | MOP | middle | 6.2605 |
-| TWD | MOP | middle | 0.2452 |
-| USD | MOP | middle | 8.0736 |
+| MYR | MOP | middle | 1.961 |
+| NOK | MOP | middle | 0.8219 |
+| NZD | MOP | middle | 4.4045 |
+| SEK | MOP | middle | 0.7863 |
+| SGD | MOP | middle | 6.2548 |
+| TWD | MOP | middle | 0.2459 |
+| USD | MOP | middle | 8.0765 |
 
 </details>
 
